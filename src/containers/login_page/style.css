@@ -4,3 +4,17 @@
   position: relative;
   margin: 50px auto;
 }
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.inside {
+  justify-content: space-between;
+  width: 100%;
+  display: flex;
+  padding: 1%;
+}
+label {
+  width: 9vw;
+}
